@@ -1,0 +1,10 @@
+grade=randi(10,1)
+if((grade>7)&&(grade<=5))
+    fprintf("poor")
+elseif ((grade<6)||(grade>7))
+fprintf("average")
+elseif ((grade<8)&&(grade>7))
+    fprintf("good")
+else ((grade>9)||(grade==6))
+    fprintf("excellent")
+end
